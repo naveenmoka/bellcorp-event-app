@@ -1,0 +1,14 @@
+{
+  "name": "bellcorp-event-app-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "cd server && npm install",
+    "start": "cd server && npm start",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm install && npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
